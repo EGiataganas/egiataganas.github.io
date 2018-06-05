@@ -55,7 +55,8 @@ p {
 }
 
 #mainNav {
-  border-color: rgba(34, 34, 34, 0.05);
+  background-color: #a1a4a9;
+  border-color: rgba(34, 34, 34, 0.1);
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -106,9 +107,8 @@ p {
 }
 
 /* color of navbar after header */
-#mainNav.navbar-shrink {
-  background-color: #a1a4a9;
-  border-color: rgba(34, 34, 34, 0.1);
+#mainNav.navbar-transparent {
+  background-color: transparent;
 }
 
 header.masthead {
