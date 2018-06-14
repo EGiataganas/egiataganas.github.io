@@ -61,4 +61,16 @@
     $.magnificPopup.close();
   });
 
+  jQuery(function($) {
+    var form_action = $('#contactForm').attr('action');
+
+      $('#contactForm').submit(function(ev) {
+        ev.preventDefault();
+        var subject = $('#subject').val(),
+          body = $('#message').val();
+
+        window.location.href = form_action + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      });
+  });
+
 })(jQuery); // End of use strict
