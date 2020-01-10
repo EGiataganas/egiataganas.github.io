@@ -111,7 +111,7 @@ p {
 
 /* the selected tab ON mobile*/
 #mainNav .navbar-nav>li>a.active {
-  color: white !important;
+  color: black !important;
   background-color: transparent;
   border: 1px solid;
 }
