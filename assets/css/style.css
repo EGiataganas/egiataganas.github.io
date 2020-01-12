@@ -1,10 +1,14 @@
-html,
-body {
-  width: 100%;
-  height: 100%;
+html, body {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: white;
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
@@ -17,6 +21,10 @@ a {
 
 a:hover, a:focus {
   color: #666;
+}
+
+li {
+  list-style-type: none;
 }
 
 /* this is for the horizontal line in about me section */
@@ -170,7 +178,7 @@ section {
   padding: 50px 0;
 }
 
-section h2 {
+section .section-heading {
   font-size: 50px;
 }
 
