@@ -1,6 +1,15 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  $(".element").each(function() {
+    var $this = $(this);
+    $this.typed({
+      strings: $this.attr('data-elements').split(','),
+      typeSpeed: 100,
+      backDelay: 3000
+    });
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
