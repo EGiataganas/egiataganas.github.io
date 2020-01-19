@@ -13,14 +13,14 @@ body {
 }
 
 a {
-  color: #828282;
+  color: #343a40;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #666;
+  color: #1e2021;
 }
 
 li {
@@ -73,7 +73,7 @@ p {
 .scroll-to-top a {
   width: 3.5rem;
   height: 3.5rem;
-  background-color: #a1a4a9;
+  background-color: #343a40;
   line-height: 3.1rem;
 }
 
@@ -432,7 +432,6 @@ section.about .section-heading p {
 }
 
 section.contact {
-  /* background-color: #212529; */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -525,7 +524,7 @@ footer {
   z-index: 5;
   position: relative;
   background: #f9f9f9;
-  color: #828282;
+  color: #343a40;
   width: 100%;
   margin: 0;
   padding-top: 15px;
@@ -564,12 +563,12 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: #f9f9f9;
-  color: #828282;
+  color: #343a40;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   color: #f9f9f9;
-  background-color: #828282;
+  background-color: #343a40;
   border-color: white;
 }
 
