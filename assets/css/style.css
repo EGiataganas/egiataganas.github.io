@@ -220,6 +220,10 @@ header.masthead .header-content {
     padding-bottom: 0;
   }
 
+  header.clip-shade {
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+  }
+
   header.masthead .header-content {
     margin-bottom: 0;
     text-align: left;
