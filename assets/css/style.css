@@ -205,6 +205,7 @@ header.masthead {
 
 header.clip-shade {
   clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%)
 }
 
 header.masthead .header-content {
